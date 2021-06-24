@@ -7,8 +7,8 @@ public class SideMovement : MonoBehaviour
 {
 
 	private CharacterController controller;
-	private float xSpeed = 10f;
-	private float ySpeed = 5f;
+	public float xSpeed = 10f;
+	public float ySpeed = 5f;
 
 	private Vector3 location;
 	
@@ -46,10 +46,10 @@ public class SideMovement : MonoBehaviour
 			Vector3 upScale = new Vector3(1,-1,1);
 			transform.localScale = upScale;
 		}
-		
-		
-		{
-			
-		}
+
+		controller.Move(location * Time.deltaTime);
+
 	}
+	
 }
+
