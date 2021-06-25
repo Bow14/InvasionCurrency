@@ -47,6 +47,18 @@ public class SideMovement : MonoBehaviour
 			transform.localScale = upScale;
 		}
 
+		if (Input.GetKeyDown(KeyCode.LeftShift))
+		{
+			xSpeed = 20f;
+			ySpeed = 10f;
+		}
+
+		if (Input.GetKeyUp(KeyCode.LeftShift))
+		{
+			xSpeed = 10f;
+			ySpeed = 5f;
+		}
+
 		controller.Move(location * Time.deltaTime);
 
 	}
