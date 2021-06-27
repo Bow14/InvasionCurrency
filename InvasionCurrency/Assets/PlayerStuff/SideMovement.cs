@@ -35,16 +35,12 @@ public class SideMovement : MonoBehaviour
 			Vector3 newScale = new  Vector3(-1, 1, 1 );
 			transform.localScale = newScale;
 		}
-
-		if (Input.GetAxis("Vertical")> 0)
+// got this from unity forms because my trials did not work https://docs.unity3d.com/ScriptReference/CharacterController.Move.html
+		Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0,Input.GetAxis("Vertical"));
+		controller.Move(move * Time.deltaTime * ySpeed);
+		if (move != Vector3.zero)
 		{
-			Vector3 upScale = new Vector3(1, 1, 1);
-			transform.localScale = upScale;
-		}
-		else if (Input.GetAxis("Vertical")< 0)
-		{
-			Vector3 upScale = new Vector3(1,-1,1);
-			transform.localScale = upScale;
+			gameObject.transform.forward = move;
 		}
 
 		if (Input.GetKeyDown(KeyCode.LeftShift))
