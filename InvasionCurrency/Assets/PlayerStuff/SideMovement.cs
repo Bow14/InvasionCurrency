@@ -55,6 +55,12 @@ public class SideMovement : MonoBehaviour
 			ySpeed = 5f;
 		}
 
+		if (controller.isGrounded)
+		{
+			location.y = 0;
+			location.x = 0;
+		}
+
 		controller.Move(location * Time.deltaTime);
 
 	}
