@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\huffn\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -8,6 +8,9 @@
       <e p="Assets" t="Include">
         <e p="PlayerStuff" t="Include">
           <e p="SideMovement.cs" t="Include" />
+        </e>
+        <e p="Targets" t="Include">
+          <e p="TargetSystem.cs" t="Include" />
         </e>
       </e>
       <e p="InvasionCurrency.sln" t="IncludeFlat" />
