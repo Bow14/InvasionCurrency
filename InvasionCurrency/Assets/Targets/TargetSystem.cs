@@ -16,7 +16,7 @@ public class TargetSystem : MonoBehaviour
 	void Update ()
 	{
 		transform.LookAt(player.transform);//This means it has to look at the player to move forward
-		transform.position += transform.forward * 1f * Time.deltaTime; //This code means to have the transform of the enemy to move forward by 1f
+		transform.position += transform.forward * 4f * Time.deltaTime; //This code means to have the transform of the enemy to move forward by 1f
 	}
 	
 }
