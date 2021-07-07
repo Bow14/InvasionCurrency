@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Targets/TargetSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -20,6 +21,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Targets/TargetSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" />
       </list>
     </option>
   </component>
@@ -85,6 +87,7 @@
       <workItem from="1624942404687" duration="267000" />
       <workItem from="1625024989122" duration="1431000" />
       <workItem from="1625287313920" duration="102000" />
+      <workItem from="1625634768583" duration="717000" />
     </task>
     <servers />
   </component>
