@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Targets/TargetSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/TextController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -22,6 +23,7 @@
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Targets/TargetSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/TextController.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +91,7 @@
       <workItem from="1625287313920" duration="102000" />
       <workItem from="1625634768583" duration="717000" />
       <workItem from="1625803472424" duration="619000" />
+      <workItem from="1626067165321" duration="182000" />
     </task>
     <servers />
   </component>

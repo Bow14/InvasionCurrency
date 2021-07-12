@@ -13,6 +13,9 @@
         <e p="Targets" t="Include">
           <e p="TargetSystem.cs" t="Include" />
         </e>
+        <e p="UI" t="Include">
+          <e p="TextController.cs" t="Include" />
+        </e>
       </e>
       <e p="InvasionCurrency.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
