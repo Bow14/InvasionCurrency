@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\PlayerStuff\SideMovement.cs" />
     <Compile Include="Assets\PlayerStuff\Trigger.cs" />
+    <Compile Include="Assets\Targets\Destroy.cs" />
     <Compile Include="Assets\Targets\TargetSystem.cs" />
     <Compile Include="Assets\UI\TextController.cs" />
     <Reference Include="UnityEditor.StandardEvents">
