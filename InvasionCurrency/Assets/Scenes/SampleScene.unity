@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 149728035}
   - component: {fileID: 149728034}
   - component: {fileID: 149728039}
+  - component: {fileID: 149728040}
   m_Layer: 0
   m_Name: Enemy (6)
   m_TagString: Untagged
@@ -152,7 +153,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 149728033}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -223,6 +224,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d235d2508afae40a7a2280aee9f42e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &149728040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 149728033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31325623d6e3d0440872673d51bfed30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1782859359}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +329,7 @@ GameObject:
   - component: {fileID: 241926027}
   - component: {fileID: 241926026}
   - component: {fileID: 241926031}
+  - component: {fileID: 241926032}
   m_Layer: 0
   m_Name: Enemy (3)
   m_TagString: Untagged
@@ -327,7 +356,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 241926025}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -398,6 +427,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d235d2508afae40a7a2280aee9f42e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &241926032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 241926025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31325623d6e3d0440872673d51bfed30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1782859359}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &282840810
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,6 +540,7 @@ GameObject:
   - component: {fileID: 1172023554}
   - component: {fileID: 1172023553}
   - component: {fileID: 1172023558}
+  - component: {fileID: 1172023559}
   m_Layer: 0
   m_Name: Enemy (4)
   m_TagString: Untagged
@@ -510,7 +567,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1172023552}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -581,6 +638,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d235d2508afae40a7a2280aee9f42e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1172023559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1172023552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31325623d6e3d0440872673d51bfed30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1782859359}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1507766082
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +678,7 @@ GameObject:
   - component: {fileID: 1507766084}
   - component: {fileID: 1507766083}
   - component: {fileID: 1507766088}
+  - component: {fileID: 1507766089}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -620,7 +705,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1507766082}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -691,6 +776,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d235d2508afae40a7a2280aee9f42e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1507766089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1507766082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31325623d6e3d0440872673d51bfed30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1782859359}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1578579989
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,6 +901,7 @@ GameObject:
   - component: {fileID: 1660325220}
   - component: {fileID: 1660325219}
   - component: {fileID: 1660325224}
+  - component: {fileID: 1660325225}
   m_Layer: 0
   m_Name: Enemy (5)
   m_TagString: Untagged
@@ -815,7 +928,7 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1660325218}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -886,6 +999,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d235d2508afae40a7a2280aee9f42e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1660325225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1660325218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31325623d6e3d0440872673d51bfed30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1782859359}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1672702150
 GameObject:
   m_ObjectHideFlags: 0
