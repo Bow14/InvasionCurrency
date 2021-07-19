@@ -8,6 +8,7 @@ public class Trigger : MonoBehaviour
 {
     private UnityEvent healthDrain;
     public UnityEvent triggerExitEvent;
+    public UnityEvent triggerEnterEvent;
     private void Awake()
     {
         GetComponent<Collider>().isTrigger = true;
@@ -15,7 +16,7 @@ public class Trigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        healthDrain.Invoke();
+        triggerEnterEvent.Invoke();
     }
 
     public void OnTriggerExit(Collider other)
