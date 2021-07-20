@@ -8,8 +8,9 @@ public class Destroy : MonoBehaviour
 	
 	// Found this help on a form so im taking ideas on how to accomplish idea from it. https://stackoverflow.com/questions/37519034/falling-blocks-on-player-touch-unity-c
 	//
-	private GameObject player;
-	private bool playerEnter = false;
+	GameObject player;
+	 bool playerEnter = false;
+	 private bool playerLeft = false;
 
 	private void Awake()
 	{
@@ -21,7 +22,15 @@ public void Update()
 		if (player.transform.position.x == transform.position.x && player.transform.position.z == transform.position.z) //pretty much finding the player and entering the same cords
 		{
 			playerEnter = true; // saying if it enters the players position than destroy
-			Destroy(gameObject, 1f);
+			
+		}
+
+		if ((player.transform.position.x != transform.position.x || player.transform.position.z != transform.position.z) && playerEnter == true && playerLeft == false)
+		{
+			playerLeft = true;
+			gameObject.AddComponent<CharacterController>();
+			Destroy(gameObject, 1.0f);
+			//remember to look what != mean and || and &&
 		}
 	}
 }
