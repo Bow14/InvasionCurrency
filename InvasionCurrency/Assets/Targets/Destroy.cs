@@ -28,7 +28,7 @@ public void Update()
 		if ((player.transform.position.x != transform.position.x || player.transform.position.z != transform.position.z) && playerEnter == true && playerLeft == false)
 		{
 			playerLeft = true;
-			gameObject.AddComponent<CharacterController>();
+			gameObject.AddComponent<Rigidbody>();
 			Destroy(gameObject, 1.0f);
 			//remember to look what != mean and || and &&
 		}
