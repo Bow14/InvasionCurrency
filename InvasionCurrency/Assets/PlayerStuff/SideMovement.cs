@@ -32,7 +32,7 @@ public class SideMovement : MonoBehaviour
 		}
 		else if (Input.GetAxis("Horizontal")< 0)
 		{
-			Vector3 newScale = new  Vector3(-1, 1, 1 );
+			Vector3 newScale = new  Vector3(1, 1, 1 );
 			transform.localScale = newScale;
 		}
 // got this from unity forms because my trials did not work https://docs.unity3d.com/ScriptReference/CharacterController.Move.html

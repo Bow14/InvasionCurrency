@@ -21,11 +21,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Targets/TargetSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/TextController.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Targets/Destroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" />
       </list>
     </option>
   </component>
@@ -99,6 +99,7 @@
       <workItem from="1626668942257" duration="221000" />
       <workItem from="1626752696590" duration="1407000" />
       <workItem from="1626925472844" duration="33000" />
+      <workItem from="1627018700695" duration="396000" />
     </task>
     <servers />
   </component>

@@ -12,7 +12,7 @@ public class Destroy : MonoBehaviour
 	 bool playerEnter = false;
 	 private bool playerLeft = false;
 
-	private void Awake()
+	public void Awake()
 	{
 		player = GameObject.Find("Player");
 	}
@@ -31,6 +31,8 @@ public void Update()
 			gameObject.AddComponent<Rigidbody>();
 			Destroy(gameObject, 1.0f);
 			//remember to look what != mean and || and &&
+			
+			Debug.Log("Ive entered");
 		}
 	}
 }

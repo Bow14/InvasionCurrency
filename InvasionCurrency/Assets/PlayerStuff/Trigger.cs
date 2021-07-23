@@ -9,12 +9,12 @@ public class Trigger : MonoBehaviour
     private UnityEvent healthDrain;
     public UnityEvent triggerExitEvent;
     public UnityEvent triggerEnterEvent;
-    private void Awake()
+ public void Awake()
     {
         GetComponent<Collider>().isTrigger = true;
     }
 
-    private void OnTriggerEnter(Collider other)
+   public void OnTriggerEnter(Collider other)
     {
         triggerEnterEvent.Invoke();
     }
