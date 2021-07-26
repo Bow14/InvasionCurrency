@@ -17,10 +17,13 @@ public class Trigger : MonoBehaviour
    public void OnTriggerEnter(Collider other)
     {
         triggerEnterEvent.Invoke();
+        Debug.Log("I have eneterd");
     }
 
     public void OnTriggerExit(Collider other)
     {
         triggerExitEvent.Invoke();
+        
+        Debug.Log("I have left");
     }
 }
