@@ -23,9 +23,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Targets/TargetSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/TextController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Targets/Destroy.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Targets/Destroy.cs" />
       </list>
     </option>
   </component>
@@ -101,6 +101,7 @@
       <workItem from="1626925472844" duration="33000" />
       <workItem from="1627018700695" duration="396000" />
       <workItem from="1627275320102" duration="83000" />
+      <workItem from="1627359737174" duration="668000" />
     </task>
     <servers />
   </component>
