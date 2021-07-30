@@ -6,6 +6,9 @@
     <e p="C:\Users\huffn\Documents\Git repo\InvasionCurrency\InvasionCurrency" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Data" t="Include">
+          <e p="intDataForPlayer.cs" t="Include" />
+        </e>
         <e p="PlayerStuff" t="Include">
           <e p="SideMovement.cs" t="Include" />
           <e p="Trigger.cs" t="Include" />
@@ -16,6 +19,7 @@
         </e>
         <e p="UI" t="Include">
           <e p="TextController.cs" t="Include" />
+          <e p="UiInterface.cs" t="Include" />
         </e>
       </e>
       <e p="InvasionCurrency.sln" t="IncludeFlat" />
