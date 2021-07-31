@@ -91,7 +91,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 33
+  controlID: 51
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 10
+  controlID: 52
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -288,9 +288,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8e0a0000
+    m_SelectedIDs: 380b0000
     m_LastClickedID: 0
-    m_ExpandedIDs: c8d5ffffded9ffffeefbffff00000000
+    m_ExpandedIDs: eefbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -385,20 +385,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Data
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Data
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\huffn\Documents\Git repo\InvasionCurrency\InvasionCurrency
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b4090000
-    m_LastClickedID: 2484
-    m_ExpandedIDs: 00000000f608000000ca9a3bffffff7f
+    m_SelectedIDs: 380b0000
+    m_LastClickedID: 2872
+    m_ExpandedIDs: 00000000fa08000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -426,7 +426,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f6080000
+    m_ExpandedIDs: 00000000fa080000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
