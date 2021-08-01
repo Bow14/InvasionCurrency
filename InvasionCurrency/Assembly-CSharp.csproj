@@ -64,6 +64,7 @@
     <Compile Include="Assets\PlayerStuff\Trigger.cs" />
     <Compile Include="Assets\Targets\Destroy.cs" />
     <Compile Include="Assets\Targets\TargetSystem.cs" />
+    <Compile Include="Assets\UI\GameUIManger.cs" />
     <Compile Include="Assets\UI\TextController.cs" />
     <Compile Include="Assets\UI\UiInterface.cs" />
     <Reference Include="UnityEditor.StandardEvents">

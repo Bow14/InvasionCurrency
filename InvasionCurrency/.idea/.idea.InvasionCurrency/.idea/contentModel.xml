@@ -18,6 +18,7 @@
           <e p="TargetSystem.cs" t="Include" />
         </e>
         <e p="UI" t="Include">
+          <e p="GameUIManger.cs" t="Include" />
           <e p="TextController.cs" t="Include" />
           <e p="UiInterface.cs" t="Include" />
         </e>

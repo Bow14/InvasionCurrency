@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Data/intDataForPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Targets/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/GameUIManger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -28,6 +29,7 @@
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Targets/Destroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/intDataForPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/GameUIManger.cs" />
       </list>
     </option>
   </component>
@@ -106,6 +108,7 @@
       <workItem from="1627359737174" duration="668000" />
       <workItem from="1627619867020" duration="607000" />
       <workItem from="1627620544188" duration="625000" />
+      <workItem from="1627785348759" duration="315000" />
     </task>
     <servers />
   </component>
