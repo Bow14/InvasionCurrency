@@ -2,8 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-/*public class intDataForPlayer : ScriptableObject
+[CreateAssetMenu]
+public class intDataForPlayer : ScriptableObject
 {
 
 	public int value = 0;
@@ -13,8 +13,8 @@ using UnityEngine;
  		value = 0;
  	}
  
- 	public void Update(int number)
+ 	public void updateValue(int number)
  	{
  		value += number;
  	}
- }*/
+ }
