@@ -24,5 +24,7 @@ public class GameUIManger : MonoBehaviour
 			gameEnded = true;
 			Debug.Log("Game Over");
 		}
+
+		
 	}
 	}

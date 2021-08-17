@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/UI/TextController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/intDataForPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/WinCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Targets/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/GameUIManger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -29,9 +30,10 @@
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Targets/Destroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/UI/GameUIManger.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/CameraScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/intDataForPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/WinCondition.cs" />
+        <option value="$PROJECT_DIR$/Assets/UI/GameUIManger.cs" />
       </list>
     </option>
   </component>
@@ -113,6 +115,7 @@
       <workItem from="1627785348759" duration="315000" />
       <workItem from="1628046449521" duration="334000" />
       <workItem from="1628139507267" duration="370000" />
+      <workItem from="1629166670895" duration="571000" />
     </task>
     <servers />
   </component>

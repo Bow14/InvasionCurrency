@@ -68,6 +68,7 @@
     <Compile Include="Assets\UI\GameUIManger.cs" />
     <Compile Include="Assets\UI\TextController.cs" />
     <Compile Include="Assets\UI\UiInterface.cs" />
+    <Compile Include="Assets\UI\WinCondition.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/huffn/Documents/Git repo/InvasionCurrency/InvasionCurrency/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
