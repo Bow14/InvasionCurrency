@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/UI/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/intDataForPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/WinCondition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/LevelComplete.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Targets/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/GameUIManger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -33,6 +34,7 @@
         <option value="$PROJECT_DIR$/Assets/UI/CameraScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/intDataForPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/WinCondition.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerStuff/LevelComplete.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/GameUIManger.cs" />
       </list>
     </option>
@@ -116,6 +118,8 @@
       <workItem from="1628046449521" duration="334000" />
       <workItem from="1628139507267" duration="370000" />
       <workItem from="1629166670895" duration="571000" />
+      <workItem from="1629426021368" duration="37000" />
+      <workItem from="1629426084495" duration="874000" />
     </task>
     <servers />
   </component>

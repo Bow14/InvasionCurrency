@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Data\intDataForPlayer.cs" />
+    <Compile Include="Assets\PlayerStuff\LevelComplete.cs" />
     <Compile Include="Assets\PlayerStuff\SideMovement.cs" />
     <Compile Include="Assets\PlayerStuff\Trigger.cs" />
     <Compile Include="Assets\Targets\Destroy.cs" />

@@ -964,7 +964,7 @@ GameObject:
   - component: {fileID: 1426689120}
   - component: {fileID: 1426689119}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -983,6 +983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameEnded: 0
   gameEndedUI: {fileID: 0}
+  restartDeylay: 1
 --- !u!114 &1426689120
 MonoBehaviour:
   m_ObjectHideFlags: 0
