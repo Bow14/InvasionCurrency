@@ -1,24 +1,41 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class SideMovement : MonoBehaviour
 {
+	
+	//Speed Boosting helped with this video https://www.youtube.com/watch?v=fDXtMlL2ahU
 
 	private CharacterController controller;
 	public float xSpeed = 10f;
 	public float ySpeed = 5f;
 
 	private Vector3 location;
+
+	public float boostTimer;
+	public bool boosting;
+
+	public void changeXSpeed()
+	{
+		xSpeed = 20f;
+	}
+	
 	
 
 	void Start ()
 	{
 	controller = GetComponent<CharacterController>();
 
+	boostTimer = 0;
+	boosting = false;
+
 	}
 	
+	
+
 	// Update is called once per frame
 	void Update ()
 	{
@@ -60,6 +77,19 @@ public class SideMovement : MonoBehaviour
 			location.y = 0;
 			location.x = 0;
 		}
+
+		if (boosting)
+		{
+			boostTimer += Time.deltaTime;
+
+			if (boostTimer >= 3)
+			{
+				xSpeed = 10;
+				boostTimer = 0;
+				boosting = false;
+			}
+		}
+		
 
 		controller.Move(location * Time.deltaTime);
 

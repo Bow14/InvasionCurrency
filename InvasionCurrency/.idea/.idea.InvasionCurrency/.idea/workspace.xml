@@ -28,7 +28,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Targets/TargetSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/TextController.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Targets/Destroy.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/CameraScript.cs" />
@@ -36,6 +35,7 @@
         <option value="$PROJECT_DIR$/Assets/UI/WinCondition.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/LevelComplete.cs" />
         <option value="$PROJECT_DIR$/Assets/UI/GameUIManger.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +120,7 @@
       <workItem from="1629166670895" duration="571000" />
       <workItem from="1629426021368" duration="37000" />
       <workItem from="1629426084495" duration="874000" />
+      <workItem from="1629609593239" duration="914000" />
     </task>
     <servers />
   </component>
