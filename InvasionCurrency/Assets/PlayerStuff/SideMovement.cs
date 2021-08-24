@@ -33,8 +33,17 @@ public class SideMovement : MonoBehaviour
 	boosting = false;
 
 	}
-	
-	
+
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.tag == "SpeedBoost")
+		{
+			boosting = true;
+			xSpeed = 20f;
+			Destroy(other.gameObject);
+		}
+	}
+
 
 	// Update is called once per frame
 	void Update ()
