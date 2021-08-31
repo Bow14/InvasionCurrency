@@ -109,7 +109,7 @@ public class SideMovement : MonoBehaviour
 		if (other.tag == "SpeedBoost")
 		{
 			boosting = true;
-			xSpeed = 10;
+			xSpeed = 100;
 
 		}
 		controller.Move(location * Time.deltaTime);
