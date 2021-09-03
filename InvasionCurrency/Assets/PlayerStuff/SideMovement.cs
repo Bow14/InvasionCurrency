@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 [RequireComponent(typeof(CharacterController))]
 public class SideMovement : MonoBehaviour
@@ -109,11 +110,15 @@ public class SideMovement : MonoBehaviour
 		if (other.tag == "SpeedBoost")
 		{
 			boosting = true;
-			xSpeed = 100;
+			xSpeed = 1000;
+			
+			Destroy(Speed);
 
 		}
 		controller.Move(location * Time.deltaTime);
 	}
+
+	public Object Speed { get; set; }
 }
 
 

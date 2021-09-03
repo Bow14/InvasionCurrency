@@ -65,6 +65,7 @@
     <Compile Include="Assets\PlayerStuff\Trigger.cs" />
     <Compile Include="Assets\PlayerStuff\Triggerspped.cs" />
     <Compile Include="Assets\Targets\Destroy.cs" />
+    <Compile Include="Assets\Targets\Target2Peps.cs" />
     <Compile Include="Assets\Targets\TargetSystem.cs" />
     <Compile Include="Assets\UI\CameraScript.cs" />
     <Compile Include="Assets\UI\GameUIManger.cs" />
