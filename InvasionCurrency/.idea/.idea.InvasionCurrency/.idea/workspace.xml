@@ -12,14 +12,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Targets/TargetSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/TextController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/Triggerspped.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/intDataForPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/UI/WinCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/LevelComplete.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/Trigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Data/GameSprites.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Targets/TargetSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UI/WinCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Targets/Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UI/GameUIManger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,6 +40,7 @@
         <option value="$PROJECT_DIR$/Assets/UI/GameUIManger.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerStuff/SideMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Targets/Target2Peps.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/GameSprites.cs" />
       </list>
     </option>
   </component>
@@ -128,6 +130,7 @@
       <workItem from="1630029529864" duration="1168000" />
       <workItem from="1630375880906" duration="294000" />
       <workItem from="1630633465891" duration="1391000" />
+      <workItem from="1631338757775" duration="87000" />
     </task>
     <servers />
   </component>
